@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-09 11:55:43 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUM0NENUVDk7MjAyMi0wNC0wOTsxMToyMzoyNyBBTTszMzAy"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUM0NENUVDk7MjAyMi0wNC0wOTsxMTo1NTo0MyBBTTs2OzM0MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="q" type="Real" array="False" size=""/>
+            <declare name="ppu" type="Real" array="False" size=""/>
+            <declare name="extendedprice" type="Real" array="False" size=""/>
+            <input variable="q"/>
+            <input variable="ppu"/>
+            <assign variable="extendedprice" expression="q*ppu"/>
+            <output expression="extendedprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
